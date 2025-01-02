@@ -36,6 +36,11 @@
 		&.has-text-color th {
 			color: inherit;
 		}
+		td {
+			&#today {
+				text-decoration: underline;
+			}
+		}
 	}
 }
 
